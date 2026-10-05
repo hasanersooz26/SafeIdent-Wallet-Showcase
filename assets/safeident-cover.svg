@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">SafeIdent Wallet</title>
+  <desc id="desc">Privacy-first verifiable identity wallet showcase</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.55" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="72" r="170" fill="#22D3EE" opacity="0.08"/>
+  <circle cx="930" cy="390" r="230" fill="#22C55E" opacity="0.07"/>
+  <g opacity="0.16" stroke="#A5F3FC" fill="none">
+    <path d="M700 86h88l44 44h118l44-44h96"/>
+    <path d="M700 332h108l42-42h116l46 42h78"/>
+    <circle cx="700" cy="86" r="6" fill="#A5F3FC"/>
+    <circle cx="1090" cy="86" r="6" fill="#A5F3FC"/>
+    <circle cx="700" cy="332" r="6" fill="#A5F3FC"/>
+    <circle cx="1090" cy="332" r="6" fill="#A5F3FC"/>
+  </g>
+  <g transform="translate(88 82)">
+    <circle cx="128" cy="128" r="124" fill="#22D3EE" opacity="0.12" filter="url(#glow)"/>
+    <path d="M128 10c40 28 76 37 108 40v72c0 74-43 116-108 146C63 238 20 196 20 122V50c32-3 68-12 108-40z" fill="url(#shield)"/>
+    <path d="M128 43c29 19 54 27 78 31v48c0 52-29 84-78 109-49-25-78-57-78-109V74c24-4 49-12 78-31z" fill="#071426" opacity="0.9"/>
+    <rect x="84" y="101" width="88" height="76" rx="14" fill="#E6FFFB"/>
+    <path d="M103 101V84c0-34 50-34 50 0v17" fill="none" stroke="#E6FFFB" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="128" cy="134" r="10" fill="#0E7490"/>
+    <path d="M128 143v16" stroke="#0E7490" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" fill="#F8FAFC">
+    <text x="390" y="150" font-size="60" font-weight="700" letter-spacing="-1">SafeIdent Wallet</text>
+    <text x="393" y="202" font-size="24" fill="#A5F3FC">Privacy-first verifiable identity</text>
+    <text x="393" y="264" font-size="20" fill="#CBD5E1">Credentials · Zero-Knowledge Proofs · Social Recovery</text>
+    <rect x="393" y="296" width="168" height="38" rx="19" fill="#22C55E" opacity="0.16" stroke="#4ADE80"/>
+    <text x="421" y="322" font-size="16" fill="#BBF7D0">TEKNOFEST 2026</text>
+  </g>
+</svg>
